@@ -17,7 +17,7 @@ Objectives:
 	-BigQuery: Perform analysis and build reports.
 	-Looker Studio: Visualization and dashboards.
 
-    Technologies Used:
+Technologies Used:
 	-Python, PySpark
 	-Google Cloud Platform
 	-Cloud Storage
@@ -27,7 +27,7 @@ Objectives:
 	-Looker Studio
 	-SQL, Pandas
 
-     How to Run:
+How to Run:
 	-Upload your branch-wise data to GCS
 	-Ensure naming format is like: HYD-Ameerpet_2025-06-01.csv
 	-Run PySpark cleaning job on Dataproc
@@ -35,13 +35,13 @@ Objectives:
 	-Insert failed data into Cloud SQL
 	-Query in BigQuery and create visualizations
 
-     Key Insights:
+Key Insights:
 	-Identify top 3 branches with the highest failure rate.
 	-Spot peak hours/days for failed transactions.
 	-Highlight failure-prone transaction types (e.g., UPI, NEFT).
 	-Detect patterns related to fraud flags.
 
-     Future Enhancements:
+Future Enhancements:
 	-Integrate real-time monitoring with Pub/Sub & Dataflow.
 	-Alert system for abnormal failure spikes.
 	-Include root cause tagging for each failure.
